@@ -57,15 +57,7 @@ action = iptables-allports
 And finally, restart your fail2ban-client.
 ```sudo fail2ban-client restart```
 
-# MS SQL Filter for fail2ban
-If you want to make fail2ban work with ms sql you should add to "/etc/fail2ban/filter.d" the "mssqld-auth.conf" file.
-After moving the file restart fail2ban service.
-Run the bellow code:
-```
-sudo wget https://raw.githubusercontent.com/ToulisDev/fail2ban-action-mssql/main/mssqld-auth.conf
-sudo mv ./mssqld-auth.conf /etc/fail2ban/filter.d/mssqld-auth.conf
-sudo fail2ban-client restart
-```
+
 
 
 ## Contributing
