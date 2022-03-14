@@ -1,0 +1,5 @@
+[client]
+host="127.0.0.1"
+port="1433"
+user="fail2ban"
+password="<change me>"
