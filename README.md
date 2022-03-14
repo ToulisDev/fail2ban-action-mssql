@@ -1,5 +1,5 @@
 # MS SQL Server Action for fail2ban (Ubuntu Server)
-
+This is a script to add banned ips from fail2ban to your MS SQL server using ban-action from fail2ban.
 
 ## Installation
 
