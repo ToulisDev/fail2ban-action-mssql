@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Author: Toulis Dev <https://github.com/ToulisDev/fail2ban-action-mssql>
+# Source Code: Toulis Dev <https://github.com/ToulisDev/fail2ban-action-mssql>
 # Puprpose:
 #   - Store banned IP address in SQL db while it's banned by Fail2ban.
 #   - Remove unbanned IP address from SQL db while it's unbanned by Fail2ban.
